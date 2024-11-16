@@ -1,0 +1,93 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light grey background */
+    color: #333; /* Dark grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: #ffffff; /* White card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #0056b3; /* Blue theme for the title */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* Slight grey for input background */
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #0056b3; /* Blue border on focus */
+    background-color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #0056b3; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494; /* Darker blue on hover */
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .signup-link a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
